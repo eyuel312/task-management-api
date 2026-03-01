@@ -1,7 +1,10 @@
 Django==4.2.0
 djangorestframework==3.14.0
 django-cors-headers==3.14.0
+django-filter==23.2.0
 python-dotenv==1.0.0
-Pillow==9.5.0
+Pillow==12.1.1
+# drf-yasg provides API documentation but may not support latest Django
+# versions; adjust if needed.
 drf-yasg==1.21.5  # For API documentation
-psycopg2-binary==2.9.6  # If using PostgreSQL
+# psycopg2-binary==2.9.6  # If using PostgreSQL (commented out to avoid build requirements)
