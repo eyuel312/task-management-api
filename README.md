@@ -87,6 +87,16 @@ task-management-api/
 - `PUT /api/projects/{id}/` - Update project
 - `DELETE /api/projects/{id}/` - Delete project
 
+Access the API
+
+API Root: http://localhost:8000/api/
+
+Admin Interface: http://localhost:8000/admin/
+
+Swagger Documentation: http://localhost:8000/swagger/
+
+ReDoc Documentation: http://localhost:8000/redoc/
+
 ## Installation
 
 1. **Clone the repository**
